@@ -8,5 +8,8 @@ name = "pypi"
 [requires]
 python_version = "3.8"
 
+[dev-packages]
+sphinx = "*"
+
 [dev-packages.pyscaffold]
 extras = [ "all",]
