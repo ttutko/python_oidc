@@ -14,7 +14,7 @@ contextlib2==0.6.0
 cookiecutter==1.7.2
 distlib==0.3.0
 distro==1.4.0
-Django==3.0.6
+Django==3.0.7
 docutils==0.16
 ecdsa==0.15
 html5lib==1.0.1
