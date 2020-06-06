@@ -24,8 +24,7 @@ Setup Commands
 
 :code-block
 
-    docker run --name keycloak -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin -p 8180:8080 -p 8181:8443 -d -v "/home/ttutko/Downloads/localhost.crt:/etc/x509/https/loc
-alhost.crt" -v "/home/ttutko/Downloads/localhost.key:/etc/x509/https/localhost.key" jboss/keycloak
+    docker run --name keycloak -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin -p 8180:8080 -p 8181:8443 -d -v "/home/ttutko/Downloads/localhost.crt:/etc/x509/https/localhost.crt" -v "/home/ttutko/Downloads/localhost.key:/etc/x509/https/localhost.key" jboss/keycloak
 
 :code-block
 
