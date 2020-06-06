@@ -22,10 +22,10 @@ information on PyScaffold see https://pyscaffold.org/.
 Setup Commands
 ===============
 
-:code-block
+.. code-block::
 
     docker run --name keycloak -e KEYCLOAK_USER=admin -e KEYCLOAK_PASSWORD=admin -p 8180:8080 -p 8181:8443 -d -v "/home/ttutko/Downloads/localhost.crt:/etc/x509/https/localhost.crt" -v "/home/ttutko/Downloads/localhost.key:/etc/x509/https/localhost.key" jboss/keycloak
 
-:code-block
+.. code-block::
 
     step certificate create localhost localhost.crt localhost.key --profile self-signed --subtle
